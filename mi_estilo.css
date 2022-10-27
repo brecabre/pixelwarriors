@@ -26,13 +26,14 @@ h1 {
   color: rgb(224, 26, 26);
   text-align: center;
   font-size: 100px;
+  margin: 5%;
 }
 
 h2 {
-  font-family: myFirstFont;
+  
   font-size: 30px;
   text-align: center;
-  color: rgb(90, 72, 22);
+  
 }
 
 a {
@@ -45,6 +46,21 @@ a {
 .contenedor {
   display: flex;
   flex-direction: column; 
-  
+  font-weight: bold;
   justify-content: space-evenly;
+}
+
+.reloj{
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-evenly;
+  font-weight: bold;
+  font-size: 32px;
+}
+.fecha{
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  font-weight: bold;
+  font-size: 32px;
 }
