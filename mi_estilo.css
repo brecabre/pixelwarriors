@@ -1,14 +1,50 @@
-body {
-    display: flex-flow;
-    background-color: rgb(143, 221, 16);
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(tipos/antiquity-print.ttf);
 }
+
+
+body {
+    display: flex;
+    
+    justify-content: space-evenly;
+    background-color: rgb(192, 202, 96);
+    background-image: url("imagenes/dragon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+  }
+
 
 h1 {
+  font-family: myFirstFont;
   color: rgb(224, 26, 26);
   text-align: center;
+  font-size: 100px;
 }
 
-p {
-  font-family: verdana;
-  font-size: 20px;
+h2 {
+  font-family: myFirstFont;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(90, 72, 22);
+}
+
+a {
+  font-family: myFirstFont;
+  font-size: 32px;
+  text-align: center;
+  color: rgb(224, 26, 26);
+
+}
+.contenedor {
+  display: flex;
+  flex-direction: column; 
+  
+  justify-content: space-evenly;
 }
