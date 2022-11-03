@@ -1,7 +1,7 @@
 //===
 // VARIABLES
 //===
-const DATE_TARGET = new Date('10/30/2022 9:00 PM');
+const DATE_TARGET = new Date('11/06/2022 9:00 PM');
 // DOM for render
 const SPAN_DAYS = document.querySelector('span#days');
 const SPAN_HOURS = document.querySelector('span#hours');
